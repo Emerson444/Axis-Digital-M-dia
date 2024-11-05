@@ -19,7 +19,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
 
 .container .template {
@@ -70,6 +69,6 @@ a:hover{
     color:#ffffff ;
 }
 
-.box{
-    
+.box1{
+    width: 100%;
 }
