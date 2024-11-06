@@ -7,64 +7,8 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    background-color: #4F4F4F;
+    max-width: 1200px;
+    background-color: rgb(34, 34, 34);
     color: rgb(255, 255, 255);
     font-family: "Poppins", serif;
-}
-
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.template {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(/menu/img/abstract-blur-hotel-interior_00000.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 300vh;
-}
-
-.template .h1-tample {
-    width: 100vh;
-    font-size: 9vh;
-    font-weight: bold;
-    font-style: unset;
-    position: relative;
-    left: 5vh;
-    text-transform: uppercase;
-}
-
-.template .btn-temple {
-    width: 20%;
-    height: 10%;
-    position: relative;
-    border-radius: 25vh;
-    left: 5vh;
-    transition: background-color 0.3s ease;
-    border: none;
-}
-
-.btn-temple:hover{
-    background-color:#69046C ;
-    color: #ffffff;
-}
-
-.btn-temple a {
-    font-size: 4vh;
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s ease;
-}
-
-a:hover{
-    color:#ffffff ;
 }
