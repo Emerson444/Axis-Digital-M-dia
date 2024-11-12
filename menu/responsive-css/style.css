@@ -65,13 +65,14 @@ button:hover {
     align-items: center;
     position: relative;
     padding: 25px;
-    border: 2px red solid;
+    justify-content: center;
 }
 
 .box2 .titulo2{
     font-size: 7vh;
     width: 50%;
     text-align: center;
+    align-items: center;
 }
 
 .box2 .text-1{
@@ -85,7 +86,7 @@ button:hover {
 
 .box2 .text-2{
     width:100%;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     display: flex;
     align-items: center;
